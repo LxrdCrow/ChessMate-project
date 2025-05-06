@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "target": "es6",  // Tipo di output JavaScript
+    "module": "commonjs",  // Modulo che verrà usato (ad esempio, Node.js usa commonjs)
+    "outDir": "./dist",  // Directory di output per i file JavaScript compilati
+    "rootDir": "./src",  // Directory contenente i file sorgente TypeScript
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "noImplicitAny": true,
-    "skipLibCheck": true
-  }
+    "strict": true
+  },
+  "include": [
+    "src/**/*.ts"  // Includi tutti i file .ts dentro src/
+  ],
+  "exclude": [
+    "node_modules"  // Escludi la cartella node_modules
+  ]
 }
-
