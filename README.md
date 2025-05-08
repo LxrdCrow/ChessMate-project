@@ -12,4 +12,5 @@ ChessMate is an app to help you annotate your chess games, helping you improve s
 
 ## Development
 
-Project structure and draft of database design in MySQL
+Build models and app logic
+Model (User, Chessboard,  )
