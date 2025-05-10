@@ -8,11 +8,11 @@ const bcrypt_1 = __importDefault(require("bcrypt"));
 class User {
     constructor(userData) {
         this.id = userData.id;
-        this.username = userData.username;
-        this.password = this.hashPassword(userData.password);
+        this.name = userData.name;
         this.email = userData.email;
-        this.firstName = userData.firstName;
-        this.lastName = userData.lastName;
+        this.password = userData.hashed
+            ? userData.password
+            : this.hashPassword(userData.password);
     }
     hashPassword(password) {
         const salt = bcrypt_1.default.genSaltSync(10);
