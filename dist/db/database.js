@@ -11,6 +11,8 @@ const db = (0, knex_1.default)({
         user: 'root',
         password: 'tua_password',
         database: 'chessmate',
+        port: 3306,
     },
+    pool: { min: 0, max: 7 },
 });
 exports.default = db;

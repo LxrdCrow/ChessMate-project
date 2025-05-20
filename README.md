@@ -12,6 +12,9 @@ ChessMate is an app to help you annotate your chess games, helping you improve s
 
 ## Development
 
-Build models and app logic
+Build app logic:
+
 Models (Completed)
-Controllers (LoginController.ts , )
+Controllers (Completed)
+Routes (...)
+Services (...)
