@@ -16,5 +16,5 @@ Build app logic:
 
 Models (Completed)
 Controllers (Completed)
-Routes (loginRoutes.ts, userRoutes.ts, chessProfileRoutes.ts, )
+Routes (Completed)
 Services (...)
