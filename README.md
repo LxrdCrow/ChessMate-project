@@ -33,7 +33,7 @@ ChessMate-project/
 │   ├── models/
 │   ├── routes/
 │   ├── app.ts
-│   └── index.ts
+│   └── server.ts
 ├── .env
 ├── .gitignore
 ├── package.json
